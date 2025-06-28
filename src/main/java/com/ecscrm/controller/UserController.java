@@ -1,5 +1,6 @@
 package com.ecscrm.controller;
 
+import com.ecscrm.common.PageBean;
 import com.ecscrm.common.Result;
 import com.ecscrm.constant.ActiveStatusConstant;
 import com.ecscrm.constant.MessageConstant;
@@ -79,6 +80,33 @@ public class UserController {
         userService.save(userDTO);
 
         return Result.success();
+    }
 
+    /**
+     * user query
+     * @param page
+     * @param pageSize
+     * @param user
+     * @return
+     */
+    @GetMapping("/page")
+    public Result page(@RequestParam(defaultValue = "1") Integer page,@RequestParam(defaultValue = "10")Integer pageSize,User user){
+        log.info("user query: {}, {}, {}",page,pageSize,user);
+        PageBean pageBean =  userService.page(page,pageSize,user);
+        return Result.success(pageBean);
+    }
+
+    /**
+     * enable or disable user
+     * @param status
+     * @param userId
+     * @return
+     */
+    @PostMapping("/status/{status}")
+    public Result startOrStop(@PathVariable Integer status,Integer userId){
+        log.info("startOrStop: {} {}",status,userId);
+        userService.startOrStop(status,userId);
+
+        return Result.success();
     }
 }
