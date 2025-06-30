@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ab6c0821-e85e-44f5-8cd9-bde4e97ea3a2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/ecscrm/json/JacksonObjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/brand/brand-01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/brand/brand-02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/brand/brand-03.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/brand/brand-04.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/brand/brand-05.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/brand/brand-06.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/brand/brand-07.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/brand/brand-08.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/brand/brand-09.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/brand/brand-10.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/brand/brand-11.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/brand/brand-12.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/brand/brand-13.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/brand/brand-14.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/brand/brand-15.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/cards/card-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/cards/card-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/cards/card-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/cards/card-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/cards/card-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/cards/card-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/carousel/carousel-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/carousel/carousel-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/carousel/carousel-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/carousel/carousel-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/chat/chat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/country/country-01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/country/country-02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/country/country-03.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/country/country-04.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/country/country-05.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/country/country-06.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/country/country-07.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/country/country-08.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/error/404-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/error/404.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/error/500-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/error/500.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/error/503-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/error/503.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/error/maintenance-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/error/maintenance.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/error/success-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/error/success.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/grid-image/image-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/grid-image/image-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/grid-image/image-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/grid-image/image-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/grid-image/image-05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/grid-image/image-06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/icons/file-image-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/icons/file-image.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/icons/file-pdf-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/icons/file-pdf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/icons/file-video-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/icons/file-video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/logo/auth-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/logo/logo-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/logo/logo-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/logo/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/product/product-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/product/product-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/product/product-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/product/product-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/product/product-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/shape/grid-01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/task/google-drive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/task/pdf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/task/task.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/task/task.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/owner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/user/user-37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/video-thumb/thumb-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/video-thumb/youtube-icon-84.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/UserProfile/UserAddressCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/UserProfile/UserInfoCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/UserProfile/UserMetaCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/auth/SignInForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/auth/SignUpForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/charts/bar/BarChartOne.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/charts/line/LineChartOne.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/common/ChartTab.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/common/ComponentCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/common/GridShape.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/common/PageBreadCrumb.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/common/PageMeta.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/common/ScrollToTop.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/common/ThemeToggleButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/common/ThemeTogglerTwo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ecommerce/CountryMap.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ecommerce/DemographicCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ecommerce/EcommerceMetrics.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ecommerce/MonthlySalesChart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ecommerce/MonthlyTarget.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ecommerce/RecentOrders.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ecommerce/StatisticsChart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/form/Form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/form/Label.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/form/MultiSelect.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/form/Select.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/form/date-picker.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/form/form-elements/CheckboxComponents.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/form/form-elements/DefaultInputs.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/form/form-elements/DropZone.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/form/form-elements/FileInputExample.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/form/form-elements/InputGroup.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/form/form-elements/InputStates.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/form/form-elements/RadioButtons.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/form/form-elements/SelectInputs.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/form/form-elements/TextAreaInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/form/form-elements/ToggleSwitch.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/form/group-input/PhoneInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/form/input/Checkbox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/form/input/FileInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/form/input/InputField.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/form/input/Radio.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/form/input/RadioSm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/form/input/TextArea.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/form/switch/Switch.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/header/NotificationDropdown.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/header/UserDropdown.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/tables/BasicTables/BasicTableOne.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/tables/BasicTables/UserManagementTable.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/alert/Alert.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/avatar/Avatar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/badge/Badge.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/button/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/dropdown/Dropdown.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/dropdown/DropdownItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/images/ResponsiveImage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/images/ThreeColumnImageGrid.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/images/TwoColumnImageGrid.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/modal/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/table/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/videos/AspectRatioVideo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/videos/FourIsToThree.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/videos/OneIsToOne.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/videos/SixteenIsToNine.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/videos/TwentyOneIsToNine.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/context/SidebarContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/context/ThemeContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/useGoBack.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/useModal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/alert-hexa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/alert.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/angle-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/angle-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/angle-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/angle-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/arrow-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/audio.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/bolt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/box-cube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/box-line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/box.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/calender-line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/chat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/check-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/check-line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/chevron-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/chevron-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/chevron-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/close-line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/copy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/docs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/dollar-line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/envelope.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/eye-close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/file.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/folder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/grid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/group.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/horizontal-dots.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/info-error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/info-hexa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/mail-line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/moredot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/page.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/paper-plane.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/pencil.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/pie-chart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/plug-in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/shooting-star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/table.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/task-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/time.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/user-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/user-line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/icons/videos.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layout/AppHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layout/AppLayout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layout/AppSidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layout/Backdrop.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layout/SidebarWidget.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/AuthPages/AuthPageLayout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/AuthPages/SignIn.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/AuthPages/SignUp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Blank.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Calendar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Charts/BarChart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Charts/LineChart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Dashboard/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Forms/FormElements.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/OtherPage/NotFound.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Tables/BasicTables.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/UiElements/Alerts.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/UiElements/Avatars.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/UiElements/Badges.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/UiElements/Buttons.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/UiElements/Images.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/UiElements/Videos.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/UserProfiles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/svg.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/vite-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ecscrm/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ecscrm/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ecscrm/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ecscrm/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ecscrm/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ecscrm/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ecscrm/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ecscrm/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/com/ecscrm/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/com/ecscrm/mapper/UserMapper.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backend" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="C:\maven-mvnd-1.0.2-windows-amd64" />
+        <option name="localRepository" value="C:\maven-mvnd-1.0.2-windows-amd64\mvn\mvn_repo" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="C:\maven-mvnd-1.0.2-windows-amd64\mvn\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2zDoKDNL6sIE3311qvg6EDNFGCT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ExpensesApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Computer Science/Computing/Expenses_Claims",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.kotlinCompiler",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="ExpensesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="expenses" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecscrm.ExpensesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab6c0821-e85e-44f5-8cd9-bde4e97ea3a2" name="Changes" comment="" />
+      <created>1751274938873</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751274938873</updated>
+      <workItem from="1751274939895" duration="327000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
