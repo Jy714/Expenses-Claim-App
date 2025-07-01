@@ -13,6 +13,7 @@ type PropsType = {
   defaultDate?: DateOption;
   label?: string;
   placeholder?: string;
+  iconSize ?: string;
 };
 
 export default function DatePicker({
@@ -22,6 +23,7 @@ export default function DatePicker({
   label,
   defaultDate,
   placeholder,
+  iconSize
 }: PropsType) {
   useEffect(() => {
     const flatPickr = flatpickr(`#${id}`, {
@@ -52,7 +54,7 @@ export default function DatePicker({
         />
 
         <span className="absolute text-gray-500 -translate-y-1/2 pointer-events-none right-3 top-1/2 dark:text-gray-400">
-          <CalenderIcon className="size-6" />
+          <CalenderIcon className={iconSize} />
         </span>
       </div>
     </div>

@@ -18,6 +18,7 @@ import Blank from "./pages/Blank";
 import AppLayout from "./layout/AppLayout";
 import { ScrollToTop } from "./components/common/ScrollToTop";
 import Home from "./pages/Dashboard/Home";
+import SubmitExpenseClaim from "./pages/Forms/SubmitExpenseClaim";
 
 export default function App() {
   return (
@@ -36,6 +37,7 @@ export default function App() {
 
             {/* Forms */}
             <Route path="/form-elements" element={<FormElements />} />
+            <Route path="/application-form" element={<SubmitExpenseClaim />} />
 
             {/* Tables */}
             <Route path="/basic-tables" element={<BasicTables />} />

@@ -71,7 +71,7 @@ export default function UserManagementTable() {
   const [role, setRole] = useState("");
 
   return (
-    <div className="p-6 bg-white rounded-xl shadow">
+    <div className="p-6 bg-white dark:bg-gray-900 dark:text-gray-200 rounded-xl shadow">
       {/* Filter Section */}
       <div className="flex flex-wrap gap-4 items-center mb-4">
         <span>Name</span>
@@ -85,26 +85,26 @@ export default function UserManagementTable() {
 
         <span>Gender</span>
         <select
-          className="border px-3 py-2 rounded w-36 cursor-pointer"
+          className="border px-3 py-2 rounded w-36 cursor-pointer bg-white text-gray-900 dark:bg-gray-800 dark:text-gray-100 dark:border-gray-600"
           value={gender}
           onChange={(e) => setGender(e.target.value)}
         >
           <option value="">Options</option>
-          <option value="男">男</option>
-          <option value="女">女</option>
+          <option value="1">男</option>
+          <option value="2">女</option>
         </select>
 
         <span>Role</span>
         <select
-          className="border px-3 py-2 rounded w-36 cursor-pointer"
+          className="border px-3 py-2 rounded w-36 cursor-pointer bg-white text-gray-900 dark:bg-gray-800 dark:text-gray-100 dark:border-gray-600"
           value={role}
           onChange={(e) => setRole(e.target.value)}
         >
           <option value="">Options</option>
-          <option value="员工">Employee</option>
-          <option value="经理">Manager</option>
-          <option value="财务">Finance</option>
-          <option value="管理员">Admin</option>
+          <option value="1">Employee</option>
+          <option value="2">Manager</option>
+          <option value="3">Finance</option>
+          <option value="4">Admin</option>
         </select>
 
         <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
@@ -123,19 +123,19 @@ export default function UserManagementTable() {
       </div>
 
       {/* Action Buttons */}
-      <div className="flex gap-3 mb-3">
+      <div className="flex gap-3 mb-3 dark:text-gray-200">
         <button className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">
           Delete Employee
         </button>
-        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 ">
           + Add Employee
         </button>
       </div>
 
       {/* Table */}
       <div className="overflow-x-auto border rounded">
-        <table className="min-w-full text-sm text-left">
-          <thead className="bg-gray-100 text-gray-700">
+        <table className="min-w-full text-sm text-left bg-white dark:bg-gray-900 dark:text-gray-200">
+        <thead className="bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200">
             <tr>
               <th className="p-3">
                 <input type="checkbox" />
@@ -160,7 +160,7 @@ export default function UserManagementTable() {
               </tr>
             ) : (
               users.map((user) => (
-                <tr key={user.id} className="hover:bg-gray-50">
+                <tr key={user.id} className="hover:bg-gray-100 dark:hover:bg-gray-800 cursor-pointer">
                   <td className="p-3">
                     <input type="checkbox" />
                   </td>
@@ -186,11 +186,11 @@ export default function UserManagementTable() {
       {/* Pagination */}
       <div className="flex justify-between items-center mt-4">
         <span className="text-gray-500">Total: {users.length} rows</span>
-        <div className="flex space-x-1">
+        <div className="flex space-x-1 ">
           {[1, 2, 3, 4, 5].map((page) => (
             <button
               key={page}
-              className={`px-3 py-1 rounded ${
+              className={`px-3 py-1 rounded dark:text-gray-200 ${
                 page === 1
                   ? "bg-blue-500 text-white"
                   : "border text-gray-700 hover:bg-gray-100"
@@ -200,7 +200,7 @@ export default function UserManagementTable() {
             </button>
           ))}
           <span className="px-2 text-gray-400">...</span>
-          <button className="border px-3 py-1 rounded text-gray-700 hover:bg-gray-100">
+          <button className="border px-3 py-1 rounded text-gray-700 hover:bg-gray-100 dark:text-gray-200">
             20
           </button>
         </div>
