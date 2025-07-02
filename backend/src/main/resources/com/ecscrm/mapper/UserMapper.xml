@@ -20,6 +20,9 @@
             <if test="password != null and password != ''">
                 and password = #{password}
             </if>
+            <if test="gender != null and gender != ''">
+                and gender = #{gender}
+            </if>
             <if test="phone != phone and phone != ''">
                 and phone = #{phone}
             </if>
@@ -44,6 +47,9 @@
             </if>
             <if test="password != null and password != ''">
                 password = #{password},
+            </if>
+            <if test="gender != null and gender != ''">
+                gender = #{gender},
             </if>
             <if test="phone != phone and phone != ''">
                 phone = #{phone},

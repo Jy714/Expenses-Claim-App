@@ -11,8 +11,8 @@ import java.util.List;
 @Mapper
 public interface UserMapper {
 
-    @Insert("insert into users(name,email,password,phone,role,status,created_time,updated_time)" +
-            "values(#{name},#{email},#{password},#{phone},#{role},#{status},#{createdTime},#{updatedTime})")
+    @Insert("insert into users(name,email,password,phone,gender,role,status,created_time,updated_time)" +
+            "values(#{name},#{email},#{password},#{phone},#{gender},#{role},#{status},#{createdTime},#{updatedTime})")
     void insert(User user);
 
     @Select("select * from users where name = #{name}")
