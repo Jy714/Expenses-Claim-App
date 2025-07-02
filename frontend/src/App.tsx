@@ -19,6 +19,8 @@ import AppLayout from "./layout/AppLayout";
 import { ScrollToTop } from "./components/common/ScrollToTop";
 import Home from "./pages/Dashboard/Home";
 import SubmitExpenseClaim from "./pages/Forms/SubmitExpenseClaim";
+import ClaimApprovalPage from "./pages/Admin/ClaimApprovalPage";
+import FinanceProcessingPage from "./pages/Finance/FinanceProcessingPage";
 
 export default function App() {
   return (
@@ -41,6 +43,8 @@ export default function App() {
 
             {/* Tables */}
             <Route path="/basic-tables" element={<BasicTables />} />
+            <Route path="/claim-approval" element={<ClaimApprovalPage />} />
+            <Route path="/finance-processing" element={<FinanceProcessingPage />} />
 
             {/* Ui Elements */}
             <Route path="/alerts" element={<Alerts />} />

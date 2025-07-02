@@ -51,7 +51,12 @@ const navItems: NavItem[] = [
   {
     name: "Tables",
     icon: <TableIcon />,
-    subItems: [{ name: "User Management Tables", path: "/basic-tables", pro: false }],
+    subItems: [
+      { name: "User Management Tables", path: "/basic-tables", pro: false },
+      { name: "Claims Approval", path: "/claim-approval", pro: false },
+      { name: "Finance Processing", path: "/finance-processing", pro: false },
+
+    ],
   },
   {
     name: "Pages",

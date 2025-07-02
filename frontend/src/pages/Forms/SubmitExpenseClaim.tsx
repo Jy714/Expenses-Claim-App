@@ -97,13 +97,19 @@ export default function SubmitExpenseClaim() {
   // Custom FileInput component
   function CustomFileInput({ onChange, value, error }: { onChange: (e: React.ChangeEvent<HTMLInputElement>) => void, value?: File | null, error?: string }) {
     return (
-      <input
-        type="file"
-        accept="image/png,image/jpeg,image/jpg"
-        className={`border px-2 py-3 rounded-md w-full bg-white text-gray-400 dark:bg-gray-800 dark:text-white/90  dark:border-gray-600 focus:ring-2 focus:ring-blue-400 text-xs ${error ? 'border-error-500' : ''}`}
-        placeholder="Upload Files"
-        onChange={onChange}
-      />
+      <label className={`flex items-center border px-2 py-2 rounded-md bg-white text-gray-900 dark:bg-gray-800 dark:text-white/90 dark:border-gray-600 focus-within:ring-2 focus-within:ring-blue-400 text-xs cursor-pointer transition ${error ? 'border-error-500' : 'border-gray-300'}`}
+        style={{ minHeight: '38px', width: '160px', maxWidth: '160px' }}>
+        <input
+          type="file"
+          accept="image/png,image/jpeg,image/jpg"
+          className="hidden"
+          onChange={onChange}
+        />
+        <span className={`truncate block w-full ${value ? 'text-gray-900 dark:text-white/90' : 'text-gray-400'}`}
+          style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+          {value ? value.name : 'Upload Files'}
+        </span>
+      </label>
     );
   }
 
@@ -213,7 +219,7 @@ export default function SubmitExpenseClaim() {
                       </span>
                     )}
                   </td>
-                  <td className="p-2 align-center">
+                  <td className="p-2 align-center w-40">
                     <CustomFileInput
                       onChange={e => handleItemChange(idx, 'receipt', e.target.files ? e.target.files[0] : null)}
                       value={item.receipt}

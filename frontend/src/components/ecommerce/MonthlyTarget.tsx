@@ -69,7 +69,7 @@ export default function MonthlyTarget() {
         <div className="flex justify-between">
           <div>
             <h3 className="text-lg font-semibold text-gray-800 dark:text-white/90">
-              Monthly Target
+              Compared With Last Month
             </h3>
             <p className="mt-1 text-gray-500 text-theme-sm dark:text-gray-400">
               Target you’ve set for each month
